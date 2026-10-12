@@ -1,0 +1,48 @@
+# Python 環境與暫存
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest*/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+
+# 建置、分享包、測試產物與本機封存
+/build/
+/dist/
+/release/
+/qa/
+/outputs/
+/local_archive/
+*.log
+*.tmp
+*.zip
+
+# 金鑰與本機設定
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 個人會議資料；僅保留指定的乾淨範本
+*.meeting.json
+*.summary.json
+*.docx
+!assets/department-template.docx
+*.pdf
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.webm
+*.ogg
+*.flac
+*.aac
+~$*

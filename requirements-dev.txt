@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest==9.1.1
+pyinstaller==6.22.3
+# 舊版錄音模組的回歸測試需要；新版介面與分享包不使用。
+PySide6-Addons==6.12.0
+av==19.0.1
